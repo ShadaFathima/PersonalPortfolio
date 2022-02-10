@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 110vh;
+    background: rgb(0, 0, 0);
+}
+
+
+nav{
+    display: flex;
+    width: 100% ;
+    padding :20px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.logo{
+    width: 5rem;
+    height: 5rem;
+}
+
+
+    
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#000;
+    font-weight: bold; 
+}
+
+nav ul li a:hover{
+    color: rgb(192, 9, 9);
+}
+.detel{
+    margin-left: 10%;
+    margin-top: 10%;
+    padding: 0;
+    width: 30%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 2rem;
+    align-items: center;
+}
+.images{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.image {
+    height: 100%;
+    position: absolute;
+    left: 40%;
+    bottom: 0;
+}
+.blob{
+    height: 100%;
+    margin-top: 4rem;
+
+}
+.head{
+    margin: 0;
+    padding: 2rem;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
+.Name{
+    font-family: inherit;
+    color: chocolate;
+
+}
+p{
+    padding: 2rem;
+    padding-top: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+.btn btn-light:hover{
+   text-decoration: none;
+   font-weight: 500;
+}
+.container{
+    margin: 10%;
+}
+.row{
+    margin:0;
+}
+.col{
+     border: 2px;
+     border-style: outset;
+}
+.col-head{
+    padding-left: 0%;
+    padding: 1rem;
+    text-align: center;
+}
+.col-p{
+    text-align: center;
+}
+.row-education{
+    margin-top: 5rem;
+}
+.education-h{
+    padding-bottom: 2rem;
+    font-weight: 400px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    align-items: flex-end;
+}
+.row-contact{
+    width:100%;
+}
+.col{
+    width: 100%;
+}
+.contact_h{
+    text-align: center;
+}
+.contact_p{
+    padding: 1rem;
+    text-align: center;
+}
+#footer {
+    background-color: #000000;
+    text-align: center;
+    color:#fff;
+    padding: 2% 0%;
+}
+.footer-image{
+    padding: 1rem;
+}
